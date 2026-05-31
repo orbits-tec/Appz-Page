@@ -6,4 +6,4 @@
 
 Appz é um launcher para macOS focado em simplicidade. Acesse seus aplicativos favoritos pela barra de menus ou pelo Launchpad personalizado.
 
-- [Página do projeto](https://orbits-tec.github.io/Appz/)
+- [Página do projeto](https://appz.orbits.tec.br/)
