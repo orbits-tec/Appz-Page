@@ -1,168 +1,84 @@
 <!doctype html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Appz</title>
-    <link rel="icon" href="assets/favicon.ico" sizes="any" />
-    <link rel="icon" type="image/png" href="assets/favicon-32.png" sizes="32x32" />
-    <link rel="icon" type="image/png" href="assets/favicon-16.png" sizes="16x16" />
-    <link rel="apple-touch-icon" href="assets/appz-icon-128.png" />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <main class="hero">
-      <div class="hero-content">
-        <section class="brand" aria-label="Apresentação do Appz">
-          <div class="brand-main">
-            <img
-              src="assets/appz-icon-128.png"
-              alt="Ícone do Appz"
-              class="brand-icon"
-              width="64"
-              height="64"
-            />
-            <div class="brand-copy">
-              <h1>Appz</h1>
-              <span class="brand-version">Versão 2.0.2</span>
-            </div>
-          </div>
-          <div class="brand-actions">
-            <a class="brand-pill" href="index-en.html">English</a>
-          </div>
-        </section>
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0c1017"><meta name="description" content="Conheça o Appz, um launcher nativo em Swift para macOS. Seus aplicativos a um atalho de distância."><title>Appz — Abra, encontre e organize seus aplicativos.</title><link rel="icon" href="assets/appz-icon.png"><link rel="stylesheet" href="styles.css?v=release-rows-26"><script src="i18n.js?v=release-note-25"></script><script src="app.js?v=sheet-align-23"></script>
+</head>
+<body>
+<a class="skip" href="#conheca">Pular para o conteúdo</a>
+<header class="nav wrap">
+<a class="brand" href="#conheca" aria-label="Appz, início"><img src="assets/appz-icon.png" alt="" width="56" height="56"><span class="brand-name"><strong>Appz</strong><span class="brand-subtitle">Launcher</span></span></a>
+<div class="nav-right"><nav aria-label="Navegação principal"><a href="#conheca" aria-current="page">Conheça o Appz</a><a href="#recursos">Recursos</a><a href="#privacidade">Política de privacidade</a><a href="https://apps.apple.com/br/app/appz/id6760345561?mt=12" target="_blank" rel="noopener noreferrer" aria-label="Download do Appz na App Store (abre em nova aba)">Download</a></nav><button class="language-toggle" type="button" aria-label="Switch to English" title="Switch to English"><span aria-hidden="true">English</span></button><button class="theme-toggle" type="button" aria-label="Ativar tema claro" title="Ativar tema claro"><svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></svg><svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M20.5 14A9 9 0 0 1 10 3.5 9 9 0 1 0 20.5 14Z"/></svg></button></div>
+</header>
+<div class="release-note wrap"><span class="release-tag">Novidades da versão 2.0.2</span><p><span>Use a barra de pesquisa</span> <span class="release-shortcut"><kbd>⌥L</kbd><span aria-hidden="true">+</span><span class="release-app">aplicativo</span><span aria-hidden="true">+</span><kbd class="return-key" aria-label="Enter">↵</kbd></span></p></div>
+<div class="release-note release-note-following wrap"><span class="release-tag">Novidades da versão 2.0.2</span><p>Redesign com Liquid Glass</p></div>
 
-        <p class="hero-highlight">
-          Appz é um launcher para macOS focado em simplicidade. Acesse seus aplicativos
-          favoritos pela barra de menus ou pelo Launchpad personalizado.
-        </p>
-        <a
-          class="appstore-note"
-          href="https://apps.apple.com/br/app/appz/id6760345561?mt=12"
-          aria-label="Abrir Appz na App Store"
-        >
-          <img
-            class="appstore-note-icon"
-            src="assets/app-store-logo.png"
-            alt=""
-            aria-hidden="true"
-          />
-          <span>O Appz está disponível da App Store</span>
-        </a>
-        <section class="carousel" aria-label="Capturas de tela do Appz">
-          <div class="carousel-viewport">
-            <div class="carousel-track">
-              <figure class="slide" style="--slide-delay: 0">
-                <img src="assets/carrossel/001.png" alt="Captura de tela 001" />
-              </figure>
-              <figure class="slide" style="--slide-delay: 1">
-                <img src="assets/carrossel/002.png" alt="Captura de tela 002" />
-              </figure>
-              <figure class="slide" style="--slide-delay: 2">
-                <img src="assets/carrossel/003.png" alt="Captura de tela 003" />
-              </figure>
-              <figure class="slide" style="--slide-delay: 3">
-                <img src="assets/carrossel/004.png" alt="Captura de tela 004" />
-              </figure>
-              <figure class="slide" style="--slide-delay: 4">
-                <img src="assets/carrossel/005.png" alt="Captura de tela 005" />
-              </figure>
-              <figure class="slide" style="--slide-delay: 5">
-                <img src="assets/carrossel/006.png" alt="Captura de tela 006" />
-              </figure>
-              <figure class="slide" style="--slide-delay: 6">
-                <img src="assets/carrossel/007.png" alt="Captura de tela 007" />
-              </figure>
-              <figure class="slide" style="--slide-delay: 7">
-                <img src="assets/carrossel/008.png" alt="Captura de tela 008" />
-              </figure>
-            </div>
-          </div>
-        </section>
+<main>
+<section class="hero wrap" id="conheca" aria-label="Conheça o Appz"><h1><span class="headline-lead">Abra, encontre e organize</span><span class="headline-main">seus aplicativos <span class="headline-soft">com o</span> <span class="headline-appz">Appz.</span></span></h1>
+<p class="hero-description">Um launcher para macOS pensado para simplificar sua rotina. Organize seus aplicativos em grupos, marque seus favoritos e oculte os que você não usa.</p>
+<div class="product carousel" role="region" aria-roledescription="carrossel" aria-label="Imagens do Appz"><div class="carousel-viewport" tabindex="0" aria-label="Use as setas do teclado ou arraste para navegar"><div class="carousel-track"><div class="slide" role="group" aria-roledescription="slide" aria-label="1 de 5"><img src="assets/01.png" alt="Interface principal do Appz com busca, aplicativos, pastas e favoritos." width="3006" height="1902" draggable="false" fetchpriority="high"></div><div class="slide" role="group" aria-roledescription="slide" aria-label="2 de 5"><img src="assets/02.png" alt="Appz — captura de tela 02." width="2880" height="1800" draggable="false" ></div><div class="slide" role="group" aria-roledescription="slide" aria-label="3 de 5"><img src="assets/03.png" alt="Appz — captura de tela 03." width="2880" height="1800" draggable="false" ></div><div class="slide" role="group" aria-roledescription="slide" aria-label="4 de 5"><img src="assets/04.png" alt="Appz — captura de tela 04." width="2880" height="1800" draggable="false" ></div><div class="slide" role="group" aria-roledescription="slide" aria-label="5 de 5"><img src="assets/05.png" alt="Appz — captura de tela 05." width="2880" height="1800" draggable="false" ></div></div></div><div class="carousel-controls"><button class="carousel-pause" type="button" aria-label="Pausar apresentação">Ⅱ</button><div class="carousel-dots" aria-label="Escolher imagem"><button type="button" data-slide="0" aria-label="Mostrar imagem 1" aria-current="true"></button><button type="button" data-slide="1" aria-label="Mostrar imagem 2" aria-current="false"></button><button type="button" data-slide="2" aria-label="Mostrar imagem 3" aria-current="false"></button><button type="button" data-slide="3" aria-label="Mostrar imagem 4" aria-current="false"></button><button type="button" data-slide="4" aria-label="Mostrar imagem 5" aria-current="false"></button></div><span class="carousel-count" aria-live="off">01 / 05</span></div></div>
+</section>
 
-        <section id="recursos" class="features" aria-label="Recursos do Appz">
-          <h2>Recursos</h2>
-          <div class="features-grid">
-            <article class="feature-card">
-              <h3>Barra de menus</h3>
-              <p>Tenha seus aplicativos favoritos disponíveis na barra de menus do macOS.</p>
-            </article>
-            <article class="feature-card">
-              <h3>Launchpad</h3>
-              <p>Acesse o Appz de qualquer lugar com um atalho global.</p>
-            </article>
-            <article class="feature-card">
-              <h3>Grupos personalizados</h3>
-              <p>Crie grupos de aplicativos e organize o Launchpad do seu jeito.</p>
-            </article>
-            <article class="feature-card">
-              <h3>Arraste e solte</h3>
-              <p>Crie novos grupos ou adicione aplicativos nos grupos existentes.</p>
-            </article>
-            <article class="feature-card">
-              <h3>Aplicativos sugeridos</h3>
-              <p>O Appz observa seu padrão de uso e sugere os aplicativos que você mais usa.</p>
-            </article>
-            <article class="feature-card">
-              <h3>Ícone da barra de menus</h3>
-              <p>Prefere um visual mais limpo? Oculte o ícone da barra de menus.</p>
-            </article>
-          </div>
-        </section>
+<section class="resources wrap" id="recursos" aria-labelledby="resources-title">
+<h2 id="resources-title">Recursos</h2>
+<div class="resource-subsection"><h3>Ícone da barra de menus</h3>
+<article class="resource-row">
+<button type="button" class="resource-image" data-images="resources/menubar_01.png" aria-label="Explorar imagem do Ícone da barra de menus"><img src="resources/menubar_01.png" alt="Appz — Ícone da barra de menus." loading="lazy"><span class="expand-mark" aria-hidden="true">↗</span></button>
+<div class="resource-copy"><p>Acesse seus aplicativos favoritos pelo ícone do Appz na barra de menus do sistema.</p></div>
+</article></div>
 
-        <section id="privacidade" class="privacy" aria-label="Política de privacidade do Appz">
-          <h2>Política de Privacidade</h2>
-          <ol>
-            <li>
-              <h3>Coleta de Dados</h3>
-              <p>O Appz não coleta, não armazena e não transmite nenhum dado pessoal ou informações de uso.</p>
-            </li>
-            <li>
-              <h3>Cadastro e Identificação</h3>
-              <p>
-                O Appz não exige cadastro, conta ou login, e o uso do software não está vinculado a
-                nenhuma identidade individual.
-              </p>
-            </li>
-            <li>
-              <h3>Rastreabilidade e Cookies</h3>
-              <p>
-                O Appz não implementa recursos de rastreabilidade (como Trackers de terceiros, SDKs de
-                análise ou telemetria). Não são utilizados cookies ou tecnologias semelhantes para
-                monitorar seu comportamento.
-              </p>
-            </li>
-            <li>
-              <h3>Processamento Local</h3>
-              <p>
-                Todo o processamento necessário para as funções do Appz (indexação de aplicativos, busca
-                e execução de comandos) ocorre exclusivamente no seu dispositivo. Nenhum dado é enviado
-                para servidores externos ou para a nuvem.
-              </p>
-            </li>
-            <li>
-              <h3>Serviços de Terceiros</h3>
-              <p>O Appz não integra serviços de terceiros.</p>
-            </li>
-            <li>
-              <h3>Contato</h3>
-              <p>Para dúvidas e esclarecimentos, entre em contato através do e-mail indicado nesta página.</p>
-            </li>
-          </ol>
-        </section>
+<div class="resource-subsection"><h3>Launchpad</h3>
+<article class="resource-row">
+<button type="button" class="resource-image" data-images="resources/launcher_01.png,resources/launcher_02.png,resources/launcher_03.png,resources/launcher_04.png" aria-label="Explorar imagens do Launchpad"><img src="resources/launcher_01.png" alt="Appz — Launchpad, imagem 1." loading="lazy"><span class="expand-mark" aria-hidden="true">↗</span></button>
+<div class="resource-copy"><p>Use a barra de ferramentas do Launchpad para alternar entre os modos janela e tela inteira, ajustar o contraste e a transparência, exibir apenas os favoritos e acessar os ajustes.</p></div>
+</article></div>
+<div class="resource-subsection"><h3>Barra de pesquisa</h3>
+<article class="resource-row">
+<button type="button" class="resource-image" data-images="resources/searchbar_01.png,resources/searchbar_02.png" aria-label="Explorar imagens da Barra de pesquisa"><img src="resources/searchbar_01.png" alt="Appz — Barra de pesquisa, imagem 1." loading="lazy"><span class="expand-mark" aria-hidden="true">↗</span></button>
+<div class="resource-copy"><p>Use o atalho ⌥L para abrir a barra de pesquisa. Navegue pelos resultados com a tecla Tab e pressione Enter para abrir o aplicativo. Os atalhos podem ser personalizados nos ajustes do Appz.</p></div>
+</article></div>
 
-        <footer class="site-footer">
-          <img
-            src="assets/orbits-logo-light.png"
-            alt="Logo da Orbits"
-            class="site-footer-logo"
-          />
-          <div class="site-footer-copy">
-            <p class="site-footer-name">Jarder F. Gonzalez Junior</p>
-            <p class="site-footer-email">jfjunior@orbits.tec.br</p>
-          </div>
-        </footer>
-      </div>
-    </main>
-  </body>
-</html>
+
+<div class="resource-subsection"><h3>Drag &amp; Drop</h3>
+<article class="resource-row">
+<button type="button" class="resource-image" data-images="resources/drag_01.png,resources/drag_02.png,resources/drag_03.png" aria-label="Explorar imagens de Drag &amp; Drop"><img src="resources/drag_01.png" alt="Appz — Drag &amp; Drop, imagem 1." loading="lazy"><span class="expand-mark" aria-hidden="true">↗</span></button>
+<div class="resource-copy"><p>Arraste e solte aplicativos para criar grupos ou adicionar atalhos na Mesa e no Dock.</p></div>
+</article></div>
+<div class="resource-subsection"><h3>Grupos</h3>
+<article class="resource-row">
+<button type="button" class="resource-image" data-images="resources/group_01.png,resources/group_02.png,resources/group_03.png" aria-label="Explorar imagens de Grupos"><img src="resources/group_01.png" alt="Appz — Grupos, imagem 1." loading="lazy"><span class="expand-mark" aria-hidden="true">↗</span></button>
+<div class="resource-copy"><p>Organize seus aplicativos em grupos. Os grupos são exibidos no topo da lista em ordem alfabética.</p></div>
+</article></div>
+<div class="resource-subsection"><h3>Modo de edição</h3>
+<article class="resource-row">
+<button type="button" class="resource-image" data-images="resources/edit_01.png,resources/edit_02.png" aria-label="Explorar imagens do Modo de edição"><img src="resources/edit_01.png" alt="Appz — Modo de edição, imagem 1." loading="lazy"><span class="expand-mark" aria-hidden="true">↗</span></button>
+<div class="resource-copy"><p>Clique e segure para entrar no modo de edição. Use o clique secundário para acessar ações que podem ser aplicadas a vários aplicativos de uma só vez.</p></div>
+</article></div>
+<div class="resource-subsection"><h3>Ajustes</h3>
+<article class="resource-row">
+<button type="button" class="resource-image" data-images="resources/settings_01.png,resources/settings_02.png" aria-label="Explorar imagens de Ajustes"><img src="resources/settings_01.png" alt="Appz — Ajustes, imagem 1." loading="lazy"><span class="expand-mark" aria-hidden="true">↗</span></button>
+<div class="resource-copy"><p>Na guia Aplicativos dos ajustes, você encontra a lista de aplicativos instalados no sistema. Selecione um aplicativo para marcá-lo como favorito ou use o clique secundário para acessar outras opções. O modo de edição permite realizar ações em vários aplicativos de uma só vez.</p></div>
+</article>
+<article class="resource-row">
+<button type="button" class="resource-image" data-images="resources/settings_03.png" aria-label="Explorar imagem das Preferências"><img src="resources/settings_03.png" alt="Appz — Ajustes, guia Preferências." loading="lazy"><span class="expand-mark" aria-hidden="true">↗</span></button>
+<div class="resource-copy"><p>Na guia Preferências dos ajustes, personalize as configurações do Appz, como os atalhos de teclado, a posição da barra de pesquisa e a aparência do Launchpad.</p></div>
+</article></div>
+<div class="resource-subsection"><h3>Pastas personalizadas</h3>
+<article class="resource-row">
+<button type="button" class="resource-image" data-images="resources/settings_04.png,resources/settings_05.png,resources/settings_06.png,resources/settings_07.png,resources/settings_08.png,resources/settings_09.png" aria-label="Explorar imagens de Pastas personalizadas"><img src="resources/settings_04.png" alt="Appz — Pastas personalizadas, imagem 1." loading="lazy"><span class="expand-mark" aria-hidden="true">↗</span></button>
+<div class="resource-copy"><p>Na guia Preferências dos ajustes, adicione pastas personalizadas para exibir seus aplicativos no Launchpad. Você também pode vincular uma pasta a um grupo. Os grupos vinculados são atualizados automaticamente.</p></div>
+</article></div>
+</section>
+<section class="privacy wrap" id="privacidade" aria-labelledby="privacy-title">
+<div class="privacy-heading"><h2 id="privacy-title">Política de Privacidade</h2></div>
+<div class="privacy-content">
+<article><h3>1. Coleta de Dados</h3><p>O Appz não coleta, não armazena e não transmite nenhum dado pessoal ou informações de uso.</p></article>
+<article><h3>2. Cadastro e Identificação</h3><p>O Appz não exige cadastro, conta ou login, e o uso do software não está vinculado a nenhuma identidade individual.</p></article>
+<article><h3>3. Rastreabilidade e Cookies</h3><p>O Appz não implementa recursos de rastreabilidade (como Trackers de terceiros, SDKs de análise ou telemetria). Não são utilizados cookies ou tecnologias semelhantes para monitorar seu comportamento.</p></article>
+<article><h3>4. Processamento Local</h3><p>Todo o processamento necessário para as funções do Appz (indexação de aplicativos, busca e execução de comandos) ocorre exclusivamente no seu dispositivo. Nenhum dado é enviado para servidores externos ou para a nuvem.</p></article>
+<article><h3>5. Serviços de Terceiros</h3><p>O Appz não integra serviços de terceiros.</p></article>
+</div>
+</section>
+</main>
+
+<dialog class="resource-sheet" aria-labelledby="sheet-subsection"><div class="sheet-content"><div class="sheet-heading"><span class="sheet-subsection" id="sheet-subsection"></span><div class="sheet-actions"><div class="sheet-navigation"><button class="sheet-prev" type="button" aria-label="Imagem anterior"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m14 6-6 6 6 6"/></svg></button><span class="sheet-position" aria-live="polite"></span><button class="sheet-next" type="button" aria-label="Próxima imagem"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m10 6 6 6-6 6"/></svg></button></div><button class="sheet-expand" type="button" aria-label="Expandir painel" title="Expandir painel" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path class="expand-icon" d="M8 3H3v5m13-5h5v5M3 16v5h5m13-5v5h-5"/><path class="restore-icon" d="M3 8h5V3m13 5h-5V3M8 21v-5H3m13 5v-5h5"/></svg></button><button class="sheet-close" type="button" aria-label="Fechar imagem ampliada"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div></div><div class="sheet-media"><img class="sheet-image" alt=""></div><p class="sheet-text"></p></div></dialog>
+</body></html>
