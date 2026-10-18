@@ -1,5 +1,7 @@
 (() => {
   const translations = {
+  "Novidades da versão 2.0.3": "What’s New in Version 2.0.3",
+  "Corrigido um problema que afetava a seleção de vários aplicativos no modo de edição.": "Fixed an issue with selecting multiple apps in Edit Mode.",
   "Novidades da versão 2.0.2": "What’s New in Version 2.0.2",
   "Redesign com Liquid Glass": "Redesigned with Liquid Glass",
   "Use a barra de pesquisa": "Try the Search Bar",
